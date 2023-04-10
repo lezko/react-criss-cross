@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Mark} from '../core/Mark';
 import CellComponent from './CellComponent';
-import * as module from 'module';
 
 interface BoardComponentProps {
     board: Mark[];
