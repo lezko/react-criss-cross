@@ -1,0 +1,6 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(80 * 3px);
+  height: calc(80 * 3px);
+}

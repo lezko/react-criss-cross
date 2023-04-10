@@ -1,0 +1,19 @@
+.radio-btn-group {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+
+  ul {
+    margin-left: 35px;
+    list-style: none;
+
+    display: flex;
+    & > * + * {
+      margin-left: 20px;
+    }
+
+    label {
+      margin-right: 5px;
+    }
+  }
+}

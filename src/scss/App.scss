@@ -1,0 +1,29 @@
+.app {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  color: #939393;
+  background-color: #343737;
+  flex-direction: column;
+  align-items: center;
+
+  .control-pane {
+    width: 350px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__btns {
+      & > * + * {
+        margin-left: 5px;
+      }
+    }
+
+    & > * + * {
+      margin-left: 15px;
+    }
+  }
+}
